@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+#left, #right {
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    cursor: pointer;
+    border: 2px dashed white;
+}
+
+.list {
+    background: rgb(18, 116, 213);
+    height: 60px;
+    margin: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    padding: 0 5px;
+}
